@@ -24,7 +24,7 @@
             "atomType": "Input",
             "name": "outter_diameter",
             "x": 0.013333333333333334,
-            "y": 0.270935960591133,
+            "y": 0.37931034482758624,
             "uniqueID": 1717611818562,
             "ioValues": []
         },
@@ -44,16 +44,16 @@
         {
             "atomType": "Constant",
             "name": "Sides",
-            "x": 0.105859375,
-            "y": 0.46798029556650245,
+            "x": 0.203125,
+            "y": 0.3431855500821018,
             "uniqueID": 1717612403564,
             "ioValues": []
         },
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.2671875,
-            "y": 0.41050903119868637,
+            "x": 0.26953125,
+            "y": 0.4860426929392447,
             "uniqueID": 1717612010975,
             "ioValues": [
                 {
@@ -75,11 +75,11 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": ""
+                    "ioValue": 1717612112964
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": ""
+                    "ioValue": 1717613232769
                 }
             ]
         },
@@ -87,15 +87,15 @@
             "atomType": "Input",
             "name": "hole_diameter",
             "x": 0.013333333333333334,
-            "y": 0.625615763546798,
+            "y": 0.825944170771757,
             "uniqueID": 1717611943870,
             "ioValues": []
         },
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.20078125,
-            "y": 0.6502463054187192,
+            "x": 0.196484375,
+            "y": 0.8620689655172414,
             "uniqueID": 1717611931227,
             "ioValues": [
                 {
@@ -108,7 +108,7 @@
             "atomType": "Input",
             "name": "thickness",
             "x": 0.013333333333333334,
-            "y": 0.8357963875205254,
+            "y": 0.14942528735632182,
             "uniqueID": 1717612118730,
             "ioValues": []
         },
@@ -146,7 +146,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -113
+                    "ioValue": 0
                 },
                 {
                     "name": "zDist",
@@ -160,7 +160,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717611809545,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1717612098734
+                }
+            ]
         },
         {
             "atomType": "Equation",
@@ -238,6 +243,13 @@
             "ap2ID": 1717613114406
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717612098734,
+            "ap2ID": 1717611809545
+        },
+        {
             "ap1Name": "number or geometry",
             "ap2Name": "diameter",
             "ap2Primary": false,
@@ -258,7 +270,13 @@
             "ap1ID": 1717612118730,
             "ap2ID": 1717613232769
         },
-        null,
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1717612112964,
+            "ap2ID": 1717612098734
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -272,6 +290,13 @@
             "ap2Primary": false,
             "ap1ID": 1717613149544,
             "ap2ID": 1717613114406
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1717613232769,
+            "ap2ID": 1717612098734
         }
     ],
     "unitsIndex": 0,
