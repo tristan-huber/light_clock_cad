@@ -4,10 +4,65 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1717611738242,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "outter_radius",
+            "ioValue": 226
+        }
+    ],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717611809545,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1717611877488
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "outter_radius",
+            "x": 0.013333333333333334,
+            "y": 0.46798029556650245,
+            "uniqueID": 1717611818562,
+            "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20859375,
+            "y": 0.24958949096880131,
+            "uniqueID": 1717611877488,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 226
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1717611818562,
+            "ap2ID": 1717611877488
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717611877488,
+            "ap2ID": 1717611809545
+        }
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
