@@ -6,16 +6,16 @@
     "uniqueID": 1717611738242,
     "ioValues": [
         {
+            "name": "thickness",
+            "ioValue": 19
+        },
+        {
             "name": "outter_diameter",
             "ioValue": 226
         },
         {
             "name": "hole_diameter",
             "ioValue": 10
-        },
-        {
-            "name": "thickness",
-            "ioValue": 19
         }
     ],
     "topLevel": true,
@@ -161,8 +161,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.196484375,
-            "y": 0.8620689655172414,
+            "x": 0.18593749999999998,
+            "y": 0.7103448275862069,
             "uniqueID": 1717611931227,
             "ioValues": [
                 {
@@ -174,8 +174,8 @@
         {
             "atomType": "Equation",
             "name": "x / -2",
-            "x": 0.28203125,
-            "y": 0.8456486042692939,
+            "x": 0.284375,
+            "y": 0.7264367816091954,
             "uniqueID": 1717613149544,
             "ioValues": [
                 {
@@ -195,6 +195,50 @@
                 {
                     "name": "number or geometry",
                     "ioValue": 1717612098734
+                }
+            ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "x * 2",
+            "x": 0.165625,
+            "y": 0.9011494252873564,
+            "uniqueID": 1718123601300,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x * 2"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.24375000000000002,
+            "y": 0.8988505747126437,
+            "uniqueID": 1718123623715,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 20
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.34375,
+            "y": 0.8919540229885058,
+            "uniqueID": 1718123652504,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
                 }
             ]
         }
@@ -278,6 +322,13 @@
             "ap2ID": 1717611931227
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1717611943870,
+            "ap2ID": 1718123601300
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
@@ -297,6 +348,13 @@
             "ap2Primary": false,
             "ap1ID": 1717613149544,
             "ap2ID": 1717613114406
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1718123601300,
+            "ap2ID": 1718123623715
         }
     ],
     "unitsIndex": 0,
